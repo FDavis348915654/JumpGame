@@ -1,0 +1,5 @@
+运行 runOutPut.bat 可以导出指定目录的文件路径到指定文件里。
+
+指令 OutputResFileList.exe arg0 arg1，其中 arg0 为路径要遍历的路径，arg1 为要导出的文件。
+
+                                                       by WM QQ:348915654

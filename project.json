@@ -1,0 +1,34 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 0,
+    "showFPS" : false,
+    "frameRate" : 30,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "cocostudio"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/GameData.js",
+        "src/Common.js",
+        "src/NotificationNodeWM.js",
+        "src/LogoScene.js",
+        "src/MainMenuScene.js",
+        "src/PlayGameScene.js",
+        "src/SettingScene.js",
+        "src/TutorialScene.js",
+        "src/AboutScene.js",
+        "src/ObjectWM.js",
+        "src/MagmaWM.js",
+        "src/KidWM.js",
+        "src/BlockWM.js",
+        "src/ItemWM.js",
+        "src/ItemGoldWM.js",
+        "src/ItemFireBallWM.js",
+        "src/LevelLogic.js",
+        "src/app.js"
+    ]
+}
