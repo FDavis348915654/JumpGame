@@ -87,7 +87,7 @@ GameClient.Common = function () {
 
     this.ModeFloat = function (num, mode) { // for example, 12 / 8 = 1 ... 4, cout 4
         if (mode != 0.0) {
-            return num - mode * (num / mode);
+            return num - mode * ~~(num / mode);
         }
         else {
             return 0;
